@@ -5,10 +5,19 @@ import org.junit.jupiter.api.Test;
 import com.jdc.toru.handler.Handler;
 
 public class HandlerTest {
+	Handler handle=new Handler();
 	
 	@Test
-	void testName() {
-		Handler handle=new Handler();
+	void testRecursive() {
 		handle.useName();
+	}
+	//@Test
+	void testName() {		
+		handle.useName();
+	}
+	
+	@Test
+	void testAge() {
+		handle.recursive();
 	}
 }
