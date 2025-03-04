@@ -10,6 +10,12 @@ public class TryCastTest {
 	TryCatchData data = new TryCatchData();
 	
 	@Test
+	void testTryWithFinally() {
+		String res = data.useCheckedWithTryFinallyAndResource();
+		System.out.println(res);
+	}
+	
+	//@Test
 	void testTryMultiCatch() {
 		int res1 = data.useUncheckedWithTryMultiCatch(new int[2], "2");
 		assertEquals(-1, res1);
