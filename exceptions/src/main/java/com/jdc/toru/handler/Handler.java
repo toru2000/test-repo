@@ -22,6 +22,7 @@ public class Handler {
 	}
 	
 	//ArithmethicExcreption
+	@SuppressWarnings("unused")
 	public void useAge() {
 		try {
 			person.setAge(20);

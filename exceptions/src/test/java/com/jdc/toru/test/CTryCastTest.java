@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 import com.jdc.toru.trycatch.TryCatchData;
 
-public class TryCastTest {
+public class CTryCastTest {
 	TryCatchData data = new TryCatchData();
 	
 	@Test

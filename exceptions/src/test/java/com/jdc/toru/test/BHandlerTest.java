@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import com.jdc.toru.handler.Handler;
 
-public class HandlerTest {
+public class BHandlerTest {
 	Handler handle=new Handler();
 	
 	@Test
