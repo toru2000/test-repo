@@ -19,7 +19,8 @@ public class ECustomException {
 	}
 	
 	@Test
-	void testException() {
+	void testException() { 
+		
 		
 		assertThrows(MyUnCheckException.class,() -> data.getMyUnCheckException(""));
 		assertThrows(MyUnCheckException.class,() -> data.changeCheckToUncheck(null));
